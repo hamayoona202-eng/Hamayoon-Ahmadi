@@ -2,19 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Me</title>
+    <title>My First Laravel Page</title>
 </head>
 <body>
-    <h1>About Me</h1>
+    <h1>Welcome to My Laravel Website</h1>
 
-    <p>Full Name: Hamayoon</p>
-    <p>Student ID: R01014419</p>
+    <p>Student: Hamayoon Ahmadi</p>
+    <p>Course: {{ $course }}</p>
+    <p>This is my first Blade view.</p>
 
-    <p>
-        I want to learn how to build web applications using Laravel.
-        I also want to understand routing, views, and databases in web information systems.
-    </p>
-
-    <a href="{{ url('/') }}">Back to Home</a>
+    <a href="{{ url('/about') }}">About Me</a>
 </body>
 </html>
